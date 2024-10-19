@@ -13,9 +13,14 @@ This project aims to develop an AI-powered fraud detection system integrated wit
 Fraud in the public sector is a significant problem, and current solutions often lack transparency and scalability. By combining AI and blockchain, we aim to provide a unique solution that doesn’t currently exist in the Belgian market.
 
 ### Features
-- AI models to detect fraud and anomalies in financial data.
-- Blockchain-based ledger for tracking and validating every transaction.
-- Open-source and community-driven approach to ensure the system remains transparent and adaptable.
+Key focus areas:
+- SME Fraud: Real-time fraud detection for small and medium enterprises.
+- Tax Fraud with Blockchain: Detect and prevent tax evasion with AI and blockchain.
+- Cross-Border Transaction Fraud: Solutions for detecting international fraud.
+- Environmental and Carbon Credit Fraud: Focus on fraudulent claims in carbon trading.
+- Cryptocurrency and DeFi Fraud: Detect fraud in decentralized finance and cryptocurrency.
+- Invoice Fraud in Supply Chains: Target fraudulent billing practices in complex supply chains.
+- Behavioral Biometrics: Use AI to analyze user behavior and detect fraud in digital interactions.
 
 ## Getting Started
 We need help with:
@@ -30,11 +35,43 @@ We need help with:
 - Open a pull request with your improvements or new features.
 
 ## Roadmap
-1. Define project requirements and architecture.
-2. Build a basic AI fraud detection model.
-3. Integrate blockchain for transaction tracking.
-4. Develop the user interface and dashboards.
-5. Testing and security audits.
+- **Phase 1: Project Setup (2 weeks)**
+  - Set up the repository structure.
+  - Create initial documentation (`README.md`, `CONTRIBUTING.md`, `LICENSE.md`).
+  - Define bounties for each module.
+
+- **Phase 2: Core AI Model Development (4–6 months)**
+  - Develop AI models for:
+    - SME fraud detection.
+    - Tax fraud detection with blockchain integration.
+    - Cross-border transaction fraud detection.
+    - Cryptocurrency/DeFi fraud detection.
+    - Invoice and carbon credit fraud detection.
+  - Preprocess relevant datasets.
+  - Build APIs for fraud detection modules.
+  - Ensure detailed documentation for all modules.
+
+- **Phase 3: Testing and Validation (2–3 months)**
+  - Write unit tests for AI models.
+  - Validate models using real-world datasets.
+  - Contribute to testing through bounties.
+
+- **Phase 4: Blockchain Integration (Optional) (2 months)**
+  - Integrate blockchain technology for relevant modules.
+  - Test and validate blockchain-based fraud detection systems.
+
+- **Phase 5: API Deployment and UI (1–2 months)**
+  - Finalize APIs for external use.
+  - Develop a simple user interface for interacting with FraudGuard AI.
+
+- **Phase 6: Transition to Proprietary Model (3–6 months)**
+  - Transition from open-source to proprietary.
+  - Deploy on secure servers for enterprise and government clients.
+
+- **Phase 7: Continuous Improvement (Ongoing)**
+  - Monitor and update AI models regularly.
+  - Engage the community for improvements.
+  - Add new fraud detection modules as needed.
 
 ## License
 This project is licensed under the MIT License.
